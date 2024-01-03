@@ -27,19 +27,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <GoogleAnalytics trackPageViews />
       <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-        <title>{titleTag}</title>
-        <meta name="description" key="desc" content="KeepKey - The premier hardware wallet to help protect your cryptocurrencies and safeguard your assets from hackers." />
-        <link rel="canonical" href={`https://www.keepkey.com${router.pathname}`} />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={titleTag} />
-        <meta property="og:description" content="KeepKey - The premier hardware wallet to help protect your cryptocurrencies and safeguard your assets from hackers." />
-        <meta property="og:url" content={`https://www.keepkey.com${router.pathname}`} />
-        <meta property="og:site_name" content="KeepKey" />
-        <meta property="og:image" content={ogImage.src} />
+      <meta name="facebook-domain-verification" content="9tvdigjfrqayvsru06yjch1n03jdaa" />
       </Head>
 
       <Layout>
